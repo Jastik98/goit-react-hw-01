@@ -1,0 +1,33 @@
+.itemTable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 450px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.itemTheadTr {
+  color: white;
+}
+
+.itemThead {
+  background-color: rgba(0, 0, 0, 0.87);
+  margin: 15px;
+}
+
+.itemTheadTr th,
+.itemTbody tr td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.itemTbody {
+  border: 1px solid black;
+  font-weight: 600;
+  color: black;
+
+  tr:nth-child(even) {
+    background-color: rgb(195, 195, 195);
+  }
+}

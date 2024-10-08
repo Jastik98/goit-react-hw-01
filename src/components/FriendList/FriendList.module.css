@@ -1,0 +1,30 @@
+.friendsWrapper {
+  display: flex;
+  margin: 20px;
+  gap: 7px;
+  justify-content: center;
+}
+
+.friendsList {
+  list-style: none;
+}
+
+.friendsName {
+  text-align: center;
+  font-weight: 600;
+}
+
+.friendsListItem {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(40, 40, 128, 0.5);
+}
+
+.statusIsOnline {
+  color: green;
+}
+
+.statusIsOffline {
+  color: red;
+}
